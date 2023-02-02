@@ -9,7 +9,7 @@
 }
 
 .container{
-    display: flex;
+  
     justify-content: center;
 }
 
@@ -44,30 +44,7 @@ nav .navbar-nav a{
 h2{
     font-family: 'Mochiy Pop P One', sans-serif;
 }
-.about{
-    font-family: serif;
-}
 
-.about .ket{
-    margin-left: 100px;
-    margin-top: 50px;
-    
-}
-.about .circle{
-    top: -10px;
-    right: 95px;
-    z-index: -1;
-    background: linear-gradient(#EBF3FF, #1DCFFF);
-}
-.about .lingkaran{
-    top: 110px;
-    right: 220px;
-    z-index: -1;
-}
-.sertif .abstrak{
-    top: 200px;
-    right: 500px;
-}
 
 /* galleri */
 .overlay{
@@ -101,10 +78,10 @@ h2{
 
 @media (min-width: 576px) { 
 
-.container{
+/* .container{
     margin-top: 15vh;
     width: auto;
-}
+} */
 
 .data{
     font-size: 10px;
@@ -164,10 +141,7 @@ li{
     padding: 50px;
 }
 
-.sertif{
-    margin-top: -100px;
-    width: 90%;
-}
+
 
 
 
